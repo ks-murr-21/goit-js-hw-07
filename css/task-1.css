@@ -1,0 +1,52 @@
+.cat-names {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+
+border-radius: 8px;
+padding: 24px;
+width: 440px;
+height: 888px;
+
+background: #fff;
+}
+
+.item {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 16px;
+
+border-radius: 8px;
+padding-left: 16px;
+width: 392px;
+height: 264px;
+
+background: #f6f6fe;
+}
+
+/*.cat-list {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+font-size: 24px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+/*.cat-list-item {
+    font-family: "Montserrat", sans-serif;
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+gap: 8px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
