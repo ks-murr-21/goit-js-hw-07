@@ -8,6 +8,6 @@ elInput.addEventListener("input", (event) => {
   if (event.currentTarget.value.trim().length != 0) {
     elOutput.textContent = event.currentTarget.value.trim();
   } else {
-    elOutputput.textContent = "Anonymous";
+    elOutput.textContent = "Anonymous";
   }
 });
